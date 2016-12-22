@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393F2F191E0B60FD008484BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F2F181E0B60FD008484BA /* AppDelegate.swift */; };
+		393F2F1B1E0B60FD008484BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F2F1A1E0B60FD008484BA /* ViewController.swift */; };
+		393F2F1E1E0B60FD008484BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393F2F1C1E0B60FD008484BA /* Main.storyboard */; };
+		393F2F201E0B60FD008484BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393F2F1F1E0B60FD008484BA /* Assets.xcassets */; };
+		393F2F231E0B60FD008484BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393F2F211E0B60FD008484BA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393F2F151E0B60FD008484BA /* JLShoppingMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLShoppingMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		393F2F181E0B60FD008484BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		393F2F1A1E0B60FD008484BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		393F2F1D1E0B60FD008484BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		393F2F1F1E0B60FD008484BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		393F2F221E0B60FD008484BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		393F2F241E0B60FD008484BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393F2F121E0B60FD008484BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393F2F0C1E0B60FD008484BA = {
+			isa = PBXGroup;
+			children = (
+				393F2F171E0B60FD008484BA /* JLShoppingMall */,
+				393F2F161E0B60FD008484BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		393F2F161E0B60FD008484BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				393F2F151E0B60FD008484BA /* JLShoppingMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		393F2F171E0B60FD008484BA /* JLShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+				393F2F181E0B60FD008484BA /* AppDelegate.swift */,
+				393F2F1A1E0B60FD008484BA /* ViewController.swift */,
+				393F2F1C1E0B60FD008484BA /* Main.storyboard */,
+				393F2F1F1E0B60FD008484BA /* Assets.xcassets */,
+				393F2F211E0B60FD008484BA /* LaunchScreen.storyboard */,
+				393F2F241E0B60FD008484BA /* Info.plist */,
+			);
+			path = JLShoppingMall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393F2F141E0B60FD008484BA /* JLShoppingMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393F2F271E0B60FD008484BA /* Build configuration list for PBXNativeTarget "JLShoppingMall" */;
+			buildPhases = (
+				393F2F111E0B60FD008484BA /* Sources */,
+				393F2F121E0B60FD008484BA /* Frameworks */,
+				393F2F131E0B60FD008484BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLShoppingMall;
+			productName = JLShoppingMall;
+			productReference = 393F2F151E0B60FD008484BA /* JLShoppingMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		393F2F0D1E0B60FD008484BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "金莉";
+				TargetAttributes = {
+					393F2F141E0B60FD008484BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 393F2F101E0B60FD008484BA /* Build configuration list for PBXProject "JLShoppingMall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 393F2F0C1E0B60FD008484BA;
+			productRefGroup = 393F2F161E0B60FD008484BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393F2F141E0B60FD008484BA /* JLShoppingMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393F2F131E0B60FD008484BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F2F231E0B60FD008484BA /* LaunchScreen.storyboard in Resources */,
+				393F2F201E0B60FD008484BA /* Assets.xcassets in Resources */,
+				393F2F1E1E0B60FD008484BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393F2F111E0B60FD008484BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393F2F1B1E0B60FD008484BA /* ViewController.swift in Sources */,
+				393F2F191E0B60FD008484BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		393F2F1C1E0B60FD008484BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393F2F1D1E0B60FD008484BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		393F2F211E0B60FD008484BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393F2F221E0B60FD008484BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		393F2F251E0B60FD008484BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		393F2F261E0B60FD008484BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		393F2F281E0B60FD008484BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLShoppingMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estaly.www.JLShoppingMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		393F2F291E0B60FD008484BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLShoppingMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estaly.www.JLShoppingMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		393F2F101E0B60FD008484BA /* Build configuration list for PBXProject "JLShoppingMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393F2F251E0B60FD008484BA /* Debug */,
+				393F2F261E0B60FD008484BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393F2F271E0B60FD008484BA /* Build configuration list for PBXNativeTarget "JLShoppingMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393F2F281E0B60FD008484BA /* Debug */,
+				393F2F291E0B60FD008484BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 393F2F0D1E0B60FD008484BA /* Project object */;
+}
